@@ -1,4 +1,4 @@
-f = open("temp.txt", "r")
+f = open("level3.txt", "r")
 txt = f.read()
 newtxt = ""
 for i in txt:
