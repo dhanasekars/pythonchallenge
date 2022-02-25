@@ -1,4 +1,4 @@
-import requests,json,re
+import requests,re
 
 link = "http://www.pythonchallenge.com/pc/def/equality.html"
 r = requests.get(link).text
