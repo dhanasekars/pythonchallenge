@@ -24,8 +24,7 @@ def nothing(new = "90052"):
     return nothing(new)
 
 
-with zipfile.ZipFile('channel.zip') as archive:
-    nothing()
+nothing()
     
 
 new = ['*', '\n', '*', '*', '\n','*','*','*','\n' ]
