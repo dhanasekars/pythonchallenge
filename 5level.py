@@ -11,3 +11,15 @@ print(content)
 for i in content:
     content = "".join(j * k for j,k in i)
     print(content)
+
+# atomic_content = [[(2, 4)], [(1, 14), (10, 5), (3, 70), (5, 5), (101, 1)]]
+
+# for i in atomic_content:
+#     for j,k in i:
+#         print(j * k)
+
+
+# for i in atomic_content:
+#     print("".join(str(j * k) for j,k in i))
+
+
