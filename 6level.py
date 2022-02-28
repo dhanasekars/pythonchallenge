@@ -19,7 +19,7 @@ def nothing(new = "90052"):
         new = re.search("Next nothing is (\d+)", content).group(1)
     except AttributeError:
         f.close()
-        exit(print("".join(comments)))
+        exit("".join(comments))
     f.close()
     return nothing(new)
 
