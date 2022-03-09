@@ -21,8 +21,10 @@ with Image.open('oxygen.png') as im:
     row = [px[x, im.height / 2] for x in range(im.width)]
     row = row[::7]
     ords = [r for r,b,g,a in row if r == g == b]
+    print(ords)
     notdoneyet = "".join(map(chr,ords))
     print(notdoneyet)
     level8 = re.findall(("\d+"),notdoneyet)
+    print(level8)
     for i in level8:
         print("".join(chr(int(i))))
